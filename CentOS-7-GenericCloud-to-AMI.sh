@@ -147,9 +147,9 @@ CopiedAmi=$(
   aws \
     ec2 \
     copy-image \
-    --source-region "us-east-1" \
+    --source-region "$AWS_DEFAULT_REGION" \
     --source-image-id "$ImportedAmi" \
-    --region="us-east-1" \
+    --region="$AWS_DEFAULT_REGION" \
     --name "$AMI_NAME" \
     --description "$AMI_DESC" \
     --no-encrypted \
