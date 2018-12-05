@@ -28,6 +28,8 @@ this image:
 ###############################################################################
 ```
 
+The policy document example will need to be updated with the desired S3 bucket.
+
 # Configuration
 
 Some sane defaults are included in the script but you can override them as necessary
