@@ -13,9 +13,7 @@ set -x
 # - Create policy 'vmimport' with the desired S3 bucket: 
 #   http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/VMImportPrerequisites.html#vmimport-iam-permissions
 # - Create IAM user, attach policy 'vmimport'
-# - IAM user needs a new inline policy with "ec2:CopyImage", "ec2:DeleteSnapshot",
-#   "ec2:DeregisterImage", and "ec2:DescribeImages" via the following JSON:
-#   {"Version":"2012-10-17","Statement":[{"Effect":"Allow","Action":["ec2:CopyImage","ec2:DeleteSnapshot","ec2:DeregisterImage","ec2:DescribeImages"],"Resource":"*"}]}
+# - IAM user needs a new inline policy: Refer to policy.json in this repo
 # - Create S3 bucket referenced in IAM policies
 # - Create API keys for use with `aws` commands below
 # - Grab CentOS URL and file name from http://cloud.centos.org/centos/7/images/
