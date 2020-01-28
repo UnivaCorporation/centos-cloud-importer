@@ -29,9 +29,9 @@ S3_BUCKET="${S3_BUCKET:-bucket-name}"
 export AWS_DEFAULT_REGION="${AWS_DEFAULT_REGION:-us-west-2}"
 
 # CentOS 7 raw archive URL...
-C7_RAW_URL="${C7_RAW_URL:-https://cloud.centos.org/centos/7/images/CentOS-7-x86_64-GenericCloud-1809.raw.tar.gz}"
+C7_RAW_URL="${C7_RAW_URL:-https://cloud.centos.org/centos/7/images/CentOS-7-x86_64-GenericCloud-1907.raw.tar.gz}"
 # From... https://cloud.centos.org/centos/7/images/sha256sum.txt
-C7_RAW_CHECKSUM="${C7_RAW_CHECKSUM:-d7b4debec1edbdda0e5e68d18daf47800fd77a9e3775e43496dbb9e53ff6cbe3}"
+C7_RAW_CHECKSUM="${C7_RAW_CHECKSUM:-6cdb62a5f429470df1392df0c09901b05bc45785db70ffcf05a13827430d61ef}"
 
 # AMI Name
 AMI_NAME="CentOS Linux 7.5.1809 x86_64 HVM EBS"
