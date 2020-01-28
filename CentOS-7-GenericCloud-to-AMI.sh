@@ -34,7 +34,7 @@ C7_RAW_URL="${C7_RAW_URL:-https://cloud.centos.org/centos/7/images/CentOS-7-x86_
 C7_RAW_CHECKSUM="${C7_RAW_CHECKSUM:-6cdb62a5f429470df1392df0c09901b05bc45785db70ffcf05a13827430d61ef}"
 
 # AMI Name
-AMI_NAME="CentOS Linux 7.5.1809 x86_64 HVM EBS"
+AMI_NAME="CentOS Linux 7 1907 x86_64 HVM EBS"
 
 # AMI Description
 AMI_DESC="Imported from $C7_RAW_URL without modification"
